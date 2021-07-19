@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'UzuriV2/Classes/**/*'
+  s.source_files = 'UzuriV2/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'UzuriV2' => ['UzuriV2/Assets/*.png']
