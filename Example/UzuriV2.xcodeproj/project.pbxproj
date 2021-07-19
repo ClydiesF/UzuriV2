@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		383D40C78B2B4FF60848558E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		383D40C78B2B4FF60848558E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* UzuriV2_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UzuriV2_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,12 +39,12 @@
 		607FACE51AFB9204008FA782 /* UzuriV2_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UzuriV2_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		836186C5FC682FCE344F9FEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		836186C5FC682FCE344F9FEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		83A80AE1F06EA0B580F7B920 /* Pods-UzuriV2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UzuriV2_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UzuriV2_Tests/Pods-UzuriV2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		870EA84556EA4506A4C03A0B /* Pods_UzuriV2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UzuriV2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88432FCEC8F6E865BA8CE7FC /* Pods-UzuriV2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UzuriV2_Tests.release.xcconfig"; path = "Target Support Files/Pods-UzuriV2_Tests/Pods-UzuriV2_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8C851DC777A9F40E310F4027 /* Pods-UzuriV2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UzuriV2_Example.release.xcconfig"; path = "Target Support Files/Pods-UzuriV2_Example/Pods-UzuriV2_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A84CC85DA38EF630500832EE /* UzuriV2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UzuriV2.podspec; path = ../UzuriV2.podspec; sourceTree = "<group>"; };
+		A84CC85DA38EF630500832EE /* UzuriV2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UzuriV2.podspec; path = ../UzuriV2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BEDDF95B577018599F5D49FA /* Pods-UzuriV2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UzuriV2_Example.debug.xcconfig"; path = "Target Support Files/Pods-UzuriV2_Example/Pods-UzuriV2_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FE4A2D6D547F60CD94828349 /* Pods_UzuriV2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UzuriV2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				83A80AE1F06EA0B580F7B920 /* Pods-UzuriV2_Tests.debug.xcconfig */,
 				88432FCEC8F6E865BA8CE7FC /* Pods-UzuriV2_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

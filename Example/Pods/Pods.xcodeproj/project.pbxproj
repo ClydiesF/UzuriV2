@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A95B1AA6DEA5BBE1D720A2003F82A22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		759B4E2909639D96457BF71B32447A2C /* Pods-UzuriV2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E8368A1F0758614A309147BA39AA50 /* Pods-UzuriV2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85863FBC26A500FF00067F20 /* SKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85863FBB26A500FF00067F20 /* SKButton.swift */; };
+		892C758E272FA11F6CBF706E13E8A58D /* Pods-UzuriV2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC8B3BF7C2BBE9A723853FA09D0B8D2 /* Pods-UzuriV2_Example-dummy.m */; };
+		9E2FCDAC5DB93FA9E7E631613070F06B /* UzuriV2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6011D0D0CBA73DA441652B1EB86EBF /* UzuriV2-dummy.m */; };
+		A37C7D7060D271D1E5903E0CC843A0BD /* Pods-UzuriV2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2FE9C004FCFC24FA6689C53FE1EBB0 /* Pods-UzuriV2_Tests-dummy.m */; };
+		A4ABB560D9DD60CA7B0E2980291624AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CCF0D5EF871BF3538BC2ACDED26957BD /* Pods-UzuriV2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2146E2F5A240733F71F1DB36A93CA7 /* Pods-UzuriV2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E309DB580DDD49585DDBCB451DD6D7F0 /* UzuriV2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A675E13143196A939C9917FF90A4A86F /* UzuriV2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE7B8D36D7DAEEB6515345D8C0548C23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C775A71B96E70A52FFF3B8FCB858664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 872FCDAC0BC7E6F3C507F1BF39CC62FD;
+			remoteInfo = "Pods-UzuriV2_Example";
+		};
+		6DB476E1FB0BAE0C4808D61AD1E421D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4D62877B54A3AE5325EC8820A3E5C3;
+			remoteInfo = UzuriV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042C6913D399DCECFACD6B6B4F0C583F /* Pods-UzuriV2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UzuriV2_Example.modulemap"; sourceTree = "<group>"; };
+		0E2146E2F5A240733F71F1DB36A93CA7 /* Pods-UzuriV2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UzuriV2_Example-umbrella.h"; sourceTree = "<group>"; };
+		1EC8B3BF7C2BBE9A723853FA09D0B8D2 /* Pods-UzuriV2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UzuriV2_Example-dummy.m"; sourceTree = "<group>"; };
+		20131C924E955AD06C56A8C4E15C3ED9 /* UzuriV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UzuriV2.release.xcconfig; sourceTree = "<group>"; };
+		26600534C902D4B3C2D3D96500E27F38 /* UzuriV2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UzuriV2-prefix.pch"; sourceTree = "<group>"; };
+		324F3FC33041F447A3560FBF78138C5F /* Pods-UzuriV2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UzuriV2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3F815868780EFB816E88F5647EB56D76 /* Pods-UzuriV2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UzuriV2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		42961E6720C7F6EE8508FA4F624C8364 /* Pods-UzuriV2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UzuriV2_Tests.modulemap"; sourceTree = "<group>"; };
+		4EB972EB95739C27179BE66F01E0678E /* UzuriV2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UzuriV2-Info.plist"; sourceTree = "<group>"; };
+		540D4929758E26A66B0D3990F9F60D22 /* Pods-UzuriV2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UzuriV2_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		62E8368A1F0758614A309147BA39AA50 /* Pods-UzuriV2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UzuriV2_Tests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AEF4C3368FD9AFAA696E0FF650D20CD /* Pods_UzuriV2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UzuriV2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85863FBB26A500FF00067F20 /* SKButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKButton.swift; sourceTree = "<group>"; };
+		8F505F7250DE3A9464367D2B967F9856 /* Pods-UzuriV2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UzuriV2_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9682FC826D7F056B781AF182F708FF97 /* Pods-UzuriV2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UzuriV2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99A055882011853061CEA16844FAC0D1 /* UzuriV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UzuriV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7F74019F1D0F4755C99A16805D9CCC /* UzuriV2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UzuriV2.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A675E13143196A939C9917FF90A4A86F /* UzuriV2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UzuriV2-umbrella.h"; sourceTree = "<group>"; };
+		A81F75BABBF43E2CD7A5057B810ADB80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB3D3B2E99B8066812A792B50908C115 /* UzuriV2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UzuriV2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBAD3DD2D6DB48F73EB3C51D31D7A03C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BBC6E196E1456A8AA22B7D001DEF0634 /* Pods-UzuriV2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UzuriV2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C780950AC9731EE6A5F3287F48AE313A /* Pods-UzuriV2_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UzuriV2_Tests-Info.plist"; sourceTree = "<group>"; };
+		CE6011D0D0CBA73DA441652B1EB86EBF /* UzuriV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UzuriV2-dummy.m"; sourceTree = "<group>"; };
+		D1381789DA7C59D90D82A4984F8F94D0 /* Pods-UzuriV2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UzuriV2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4450CB967B41498A5A3DAED80C5F58A /* Pods-UzuriV2_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UzuriV2_Example-Info.plist"; sourceTree = "<group>"; };
+		D4B6674A600A18780B761EDDFCD565AE /* Pods_UzuriV2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UzuriV2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC817659512F3594928D61EC70DFEB6 /* Pods-UzuriV2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UzuriV2_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DE3380C1BF0F8F143CDC1FEFCA427DD8 /* UzuriV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UzuriV2.debug.xcconfig; sourceTree = "<group>"; };
+		F929550FBE161A21A1F758F7280950A9 /* Pods-UzuriV2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UzuriV2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA2FE9C004FCFC24FA6689C53FE1EBB0 /* Pods-UzuriV2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UzuriV2_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DBF47E8CB0EC28DA27D18689E1AC196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7B8D36D7DAEEB6515345D8C0548C23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983404B5E47A7C5558333A061D0125E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4ABB560D9DD60CA7B0E2980291624AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8423631DBB1A7406A9F53FF1339DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A95B1AA6DEA5BBE1D720A2003F82A22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		233BA917D0A024CEED73F5A72BE0BF8D /* UzuriV2 */ = {
+			isa = PBXGroup;
+			children = (
+				85863FBA26A500C200067F20 /* Classes */,
+				DF1C912865F45CCD024C3F55FFE16033 /* Pod */,
+				56FC77EFF5FEB06D62F3E0C0A1C02175 /* Support Files */,
+			);
+			name = UzuriV2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		56FC77EFF5FEB06D62F3E0C0A1C02175 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D7F74019F1D0F4755C99A16805D9CCC /* UzuriV2.modulemap */,
+				CE6011D0D0CBA73DA441652B1EB86EBF /* UzuriV2-dummy.m */,
+				4EB972EB95739C27179BE66F01E0678E /* UzuriV2-Info.plist */,
+				26600534C902D4B3C2D3D96500E27F38 /* UzuriV2-prefix.pch */,
+				A675E13143196A939C9917FF90A4A86F /* UzuriV2-umbrella.h */,
+				DE3380C1BF0F8F143CDC1FEFCA427DD8 /* UzuriV2.debug.xcconfig */,
+				20131C924E955AD06C56A8C4E15C3ED9 /* UzuriV2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UzuriV2";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6A353E7F63B0D7932911EE369D4A303F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AEF4C3368FD9AFAA696E0FF650D20CD /* Pods_UzuriV2_Example.framework */,
+				D4B6674A600A18780B761EDDFCD565AE /* Pods_UzuriV2_Tests.framework */,
+				99A055882011853061CEA16844FAC0D1 /* UzuriV2.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85863FBA26A500C200067F20 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				85863FBB26A500FF00067F20 /* SKButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		92584B1145B301AE48450A7B964989DA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				233BA917D0A024CEED73F5A72BE0BF8D /* UzuriV2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC78A03B6A65F3265FBD4C3F3EED64F7 /* Pods-UzuriV2_Example */ = {
+			isa = PBXGroup;
+			children = (
+				042C6913D399DCECFACD6B6B4F0C583F /* Pods-UzuriV2_Example.modulemap */,
+				9682FC826D7F056B781AF182F708FF97 /* Pods-UzuriV2_Example-acknowledgements.markdown */,
+				BBC6E196E1456A8AA22B7D001DEF0634 /* Pods-UzuriV2_Example-acknowledgements.plist */,
+				1EC8B3BF7C2BBE9A723853FA09D0B8D2 /* Pods-UzuriV2_Example-dummy.m */,
+				8F505F7250DE3A9464367D2B967F9856 /* Pods-UzuriV2_Example-frameworks.sh */,
+				D4450CB967B41498A5A3DAED80C5F58A /* Pods-UzuriV2_Example-Info.plist */,
+				0E2146E2F5A240733F71F1DB36A93CA7 /* Pods-UzuriV2_Example-umbrella.h */,
+				540D4929758E26A66B0D3990F9F60D22 /* Pods-UzuriV2_Example.debug.xcconfig */,
+				DCC817659512F3594928D61EC70DFEB6 /* Pods-UzuriV2_Example.release.xcconfig */,
+			);
+			name = "Pods-UzuriV2_Example";
+			path = "Target Support Files/Pods-UzuriV2_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				92584B1145B301AE48450A7B964989DA /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6A353E7F63B0D7932911EE369D4A303F /* Products */,
+				F17634A51D1E666CF3AA1B443211A50A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF1C912865F45CCD024C3F55FFE16033 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A81F75BABBF43E2CD7A5057B810ADB80 /* LICENSE */,
+				BBAD3DD2D6DB48F73EB3C51D31D7A03C /* README.md */,
+				BB3D3B2E99B8066812A792B50908C115 /* UzuriV2.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F17634A51D1E666CF3AA1B443211A50A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC78A03B6A65F3265FBD4C3F3EED64F7 /* Pods-UzuriV2_Example */,
+				F7A635ED5E4CF866901CCF81C4D56B41 /* Pods-UzuriV2_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F7A635ED5E4CF866901CCF81C4D56B41 /* Pods-UzuriV2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				42961E6720C7F6EE8508FA4F624C8364 /* Pods-UzuriV2_Tests.modulemap */,
+				D1381789DA7C59D90D82A4984F8F94D0 /* Pods-UzuriV2_Tests-acknowledgements.markdown */,
+				F929550FBE161A21A1F758F7280950A9 /* Pods-UzuriV2_Tests-acknowledgements.plist */,
+				FA2FE9C004FCFC24FA6689C53FE1EBB0 /* Pods-UzuriV2_Tests-dummy.m */,
+				C780950AC9731EE6A5F3287F48AE313A /* Pods-UzuriV2_Tests-Info.plist */,
+				62E8368A1F0758614A309147BA39AA50 /* Pods-UzuriV2_Tests-umbrella.h */,
+				3F815868780EFB816E88F5647EB56D76 /* Pods-UzuriV2_Tests.debug.xcconfig */,
+				324F3FC33041F447A3560FBF78138C5F /* Pods-UzuriV2_Tests.release.xcconfig */,
+			);
+			name = "Pods-UzuriV2_Tests";
+			path = "Target Support Files/Pods-UzuriV2_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19CA5E9038CCBC352080BAD525CFF0DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E309DB580DDD49585DDBCB451DD6D7F0 /* UzuriV2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBD1225AE32F7AC7802197681E6A06F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF0D5EF871BF3538BC2ACDED26957BD /* Pods-UzuriV2_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A39C5FCC722E41C1F1AB25ABA09F81B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759B4E2909639D96457BF71B32447A2C /* Pods-UzuriV2_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A4D62877B54A3AE5325EC8820A3E5C3 /* UzuriV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FC73CA0FF96BAE68EA10F50B8084B6 /* Build configuration list for PBXNativeTarget "UzuriV2" */;
+			buildPhases = (
+				19CA5E9038CCBC352080BAD525CFF0DB /* Headers */,
+				591E99C0493B4621B66B4CD4C05F63BA /* Sources */,
+				AA8423631DBB1A7406A9F53FF1339DB9 /* Frameworks */,
+				E7A71116196765C07DC8BF55B06EF9ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UzuriV2;
+			productName = UzuriV2;
+			productReference = 99A055882011853061CEA16844FAC0D1 /* UzuriV2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		872FCDAC0BC7E6F3C507F1BF39CC62FD /* Pods-UzuriV2_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C1D0F59B7B3E362CD085202BCBD3F3 /* Build configuration list for PBXNativeTarget "Pods-UzuriV2_Example" */;
+			buildPhases = (
+				6BBD1225AE32F7AC7802197681E6A06F /* Headers */,
+				E3893327867D790F4D07CA8C5D2EF29F /* Sources */,
+				0DBF47E8CB0EC28DA27D18689E1AC196 /* Frameworks */,
+				144CABFD8E84692B3D149BE3247D803B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88FCAFFD2830BD9647B0E4F5E66BD494 /* PBXTargetDependency */,
+			);
+			name = "Pods-UzuriV2_Example";
+			productName = "Pods-UzuriV2_Example";
+			productReference = 7AEF4C3368FD9AFAA696E0FF650D20CD /* Pods_UzuriV2_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		902D5514B9A46FDB34F92A60E5658F9A /* Pods-UzuriV2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29EBB34E067EA1B653858FCDDD56DB7 /* Build configuration list for PBXNativeTarget "Pods-UzuriV2_Tests" */;
+			buildPhases = (
+				7A39C5FCC722E41C1F1AB25ABA09F81B /* Headers */,
+				15D7598B74B38BD1EED85D10F00E8720 /* Sources */,
+				983404B5E47A7C5558333A061D0125E0 /* Frameworks */,
+				FD0B36EEFC37C1D51EAD38B15FEE74A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A889D1188CAFDD4BA347D3071F92DA /* PBXTargetDependency */,
+			);
+			name = "Pods-UzuriV2_Tests";
+			productName = "Pods-UzuriV2_Tests";
+			productReference = D4B6674A600A18780B761EDDFCD565AE /* Pods_UzuriV2_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					5A4D62877B54A3AE5325EC8820A3E5C3 = {
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6A353E7F63B0D7932911EE369D4A303F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				872FCDAC0BC7E6F3C507F1BF39CC62FD /* Pods-UzuriV2_Example */,
+				902D5514B9A46FDB34F92A60E5658F9A /* Pods-UzuriV2_Tests */,
+				5A4D62877B54A3AE5325EC8820A3E5C3 /* UzuriV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		144CABFD8E84692B3D149BE3247D803B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A71116196765C07DC8BF55B06EF9ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0B36EEFC37C1D51EAD38B15FEE74A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D7598B74B38BD1EED85D10F00E8720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37C7D7060D271D1E5903E0CC843A0BD /* Pods-UzuriV2_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591E99C0493B4621B66B4CD4C05F63BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2FCDAC5DB93FA9E7E631613070F06B /* UzuriV2-dummy.m in Sources */,
+				85863FBC26A500FF00067F20 /* SKButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3893327867D790F4D07CA8C5D2EF29F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892C758E272FA11F6CBF706E13E8A58D /* Pods-UzuriV2_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40A889D1188CAFDD4BA347D3071F92DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UzuriV2_Example";
+			target = 872FCDAC0BC7E6F3C507F1BF39CC62FD /* Pods-UzuriV2_Example */;
+			targetProxy = 3C775A71B96E70A52FFF3B8FCB858664 /* PBXContainerItemProxy */;
+		};
+		88FCAFFD2830BD9647B0E4F5E66BD494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UzuriV2;
+			target = 5A4D62877B54A3AE5325EC8820A3E5C3 /* UzuriV2 */;
+			targetProxy = 6DB476E1FB0BAE0C4808D61AD1E421D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		401BDC53CAF14EFE19CBA89393C549A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F815868780EFB816E88F5647EB56D76 /* Pods-UzuriV2_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UzuriV2_Tests/Pods-UzuriV2_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UzuriV2_Tests/Pods-UzuriV2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48128CE776A8AE4C6E705C3D27CB2396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3380C1BF0F8F143CDC1FEFCA427DD8 /* UzuriV2.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UzuriV2/UzuriV2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UzuriV2/UzuriV2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UzuriV2/UzuriV2.modulemap";
+				PRODUCT_MODULE_NAME = UzuriV2;
+				PRODUCT_NAME = UzuriV2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AE0342C46ED9486D4BFB81A49774E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20131C924E955AD06C56A8C4E15C3ED9 /* UzuriV2.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UzuriV2/UzuriV2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UzuriV2/UzuriV2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UzuriV2/UzuriV2.modulemap";
+				PRODUCT_MODULE_NAME = UzuriV2;
+				PRODUCT_NAME = UzuriV2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DD9D347DD01E3953878ED739A24A45E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 324F3FC33041F447A3560FBF78138C5F /* Pods-UzuriV2_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UzuriV2_Tests/Pods-UzuriV2_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UzuriV2_Tests/Pods-UzuriV2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF3AE99AD4B296E69C12F3CEEB1C2E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540D4929758E26A66B0D3990F9F60D22 /* Pods-UzuriV2_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UzuriV2_Example/Pods-UzuriV2_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UzuriV2_Example/Pods-UzuriV2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7ACACDC9BE90FCD496A510AD4BDB75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC817659512F3594928D61EC70DFEB6 /* Pods-UzuriV2_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UzuriV2_Example/Pods-UzuriV2_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UzuriV2_Example/Pods-UzuriV2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C1D0F59B7B3E362CD085202BCBD3F3 /* Build configuration list for PBXNativeTarget "Pods-UzuriV2_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3AE99AD4B296E69C12F3CEEB1C2E9E /* Debug */,
+				F7ACACDC9BE90FCD496A510AD4BDB75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FC73CA0FF96BAE68EA10F50B8084B6 /* Build configuration list for PBXNativeTarget "UzuriV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48128CE776A8AE4C6E705C3D27CB2396 /* Debug */,
+				9AE0342C46ED9486D4BFB81A49774E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29EBB34E067EA1B653858FCDDD56DB7 /* Build configuration list for PBXNativeTarget "Pods-UzuriV2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401BDC53CAF14EFE19CBA89393C549A2 /* Debug */,
+				DD9D347DD01E3953878ED739A24A45E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

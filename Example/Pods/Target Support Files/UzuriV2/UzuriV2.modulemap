@@ -1,0 +1,6 @@
+framework module UzuriV2 {
+  umbrella header "UzuriV2-umbrella.h"
+
+  export *
+  module * { export * }
+}

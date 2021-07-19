@@ -1,0 +1,22 @@
+{
+  "name": "UzuriV2",
+  "version": "0.1.0",
+  "summary": "A short description of UzuriV2.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ClydiesF/UzuriV2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ClydiesF": "c.edward.freeman@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ClydiesF/UzuriV2.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "UzuriV2/Classes/**/*"
+}
